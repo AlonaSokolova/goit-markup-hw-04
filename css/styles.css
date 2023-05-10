@@ -439,8 +439,8 @@
         }
         .social-list-item-link:hover,
         .social-list-item-link:focus{ 
-          border-color:#404bbf;
-          color:#404bbf;
+          background-color:#404bbf;
+          background-color:#404bbf;
 
         }
         .social-list-icon {
