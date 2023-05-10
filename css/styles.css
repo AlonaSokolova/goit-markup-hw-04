@@ -512,10 +512,10 @@
             align-items: baseline;
 
         }
-        .total-footer-container {
+        /*.total-footer-container {
             margin-right: 120px;
                
-        }
+        }*/
         
         .studio-logo-footer {
             align-items: center;
@@ -546,14 +546,14 @@
             color: var(--primery-text-color-theme-dark);
         } 
         .footer-container-logo {
-            position: absolute;
+            /*position: absolute;*/
             width: 264px;
             height: 112px;
             left: 156px;
             top: 2988px;
         }
         .footer-container{
-            position: absolute;
+            /*position: absolute;*/
             width: 208px;
             height: 80px;
             left: 540px;
