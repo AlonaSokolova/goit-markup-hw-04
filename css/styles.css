@@ -181,6 +181,9 @@
             max-width: 1440px;
             background-repeat: no-repeat;
             background-position: center;
+            margin-left: auto;
+            margin-right: auto;
+            
         }
         .main-header {
             font-family: var(--primary-font);
@@ -367,17 +370,19 @@
         .section-header-item {
             background-color: #FFFFFF;
             width: 264px;
-            height: 380px;
+            height: 428px;
             box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
             border-radius: 0px 0px 4px 4px;
+            width: 264px;
+
             
         }
         .team-company {
             flex-basis: calc((100% - 72px) / 4);
         }
         .name-position {
-           /* padding: 32px 16px;*/
            padding: 32px 0;
+        
         }
         
         .secondary-section-img {
@@ -425,6 +430,7 @@
             display: flex;
             justify-content: center;
             gap: 24px;
+            margin-top: 8px;
         }
 
         .social-list-item-link {
@@ -508,10 +514,7 @@
         }
         .total-footer-container {
             margin-right: 120px;
-            margin-left: 156px;
-        }
-        .footer-container-logo {
-            margin-right: 120px;
+               
         }
         
         .studio-logo-footer {
@@ -542,18 +545,40 @@
             line-height: 1.5;
             color: var(--primery-text-color-theme-dark);
         } 
+        .footer-container-logo {
+            position: absolute;
+            width: 264px;
+            height: 112px;
+            left: 156px;
+            top: 2988px;
+        }
+        .footer-container{
+            position: absolute;
+            width: 208px;
+            height: 80px;
+            left: 540px;
+            top: 2988px;
+        }
         .media {
+            display: inline-block;
             font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.02em;
             color: #FFFFFF;
             margin-bottom: 16px;
+            height: 24px;
+            left: 540px;
+            top: 2988px;
         }
         .media-list {
             display: flex;
             justify-content: center;
-            gap: 16px; 
+            gap: 16px;            
+            /*flex-direction: row;
+            align-items: flex-start;
+            padding: 0px;*/
+
 
         }
         .media-list-item {
