@@ -416,15 +416,7 @@
             margin-bottom: 0px;
 
         }
-        .social-list-item-link {
-            justify-content: center;
-            width: 40px;
-            height: 40px;
-            background-color: #4d5ae5;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-        }
+        
 
         .social {
             gap: 24px;
@@ -447,8 +439,8 @@
         }
         .social-list-item-link:hover,
         .social-list-item-link:focus{ 
-          border-color: #404bbf;
-          color: #404bbf;
+          border-color:#404bbf;
+          color:#404bbf;
 
         }
         .social-list-icon {
@@ -518,7 +510,9 @@
             margin-right: 120px;
             margin-left: 156px;
         }
-        
+        .footer-container-logo {
+            margin-right: 120px;
+        }
         
         .studio-logo-footer {
             align-items: center;
