@@ -432,7 +432,7 @@
         .social-list {
             display: flex;
             justify-content: center;
-            gap: 16px;
+            gap: 24px;
         }
 
         .social-list-item-link {
@@ -443,9 +443,14 @@
             border-radius: 50%;
             display: flex;
             align-items: center;
+    
         }
+        .social-list-item-link:hover,
+        .social-list-item-link:focus{ 
+          border-color:#404bbf;
+          color:#404bbf;
 
-
+        }
         /*section5*/
 
         .company {
@@ -480,6 +485,13 @@
             border-radius: 4px;
             border: 1px solid #8e8f99;
             color: #8e8f99;
+        }
+
+        .company-list-item-link:hover,
+        .company-list-item-link:focus{ 
+          border-color:#404bbf;
+          color:#404bbf;
+
         }
             /*footer*/
 
@@ -603,7 +615,3 @@
             letter-spacing: 0.02em;
             color: var(--secondary-text-color-theme-light); 
         }
-
-
-
-    
