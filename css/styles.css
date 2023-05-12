@@ -551,6 +551,7 @@
             height: 112px;
             left: 156px;
             top: 2988px;
+            margin-right: 120px;
         }
         .footer-container{
             /*position: absolute;*/
@@ -558,7 +559,7 @@
             height: 80px;
             left: 540px;
             top: 2988px;
-            margin-left: 120px;
+            
         }
         .media {
             display: inline-block;
